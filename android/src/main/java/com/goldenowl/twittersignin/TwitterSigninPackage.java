@@ -28,7 +28,7 @@ public class TwitterSigninPackage implements ReactPackage {
         return modules;
     }
 
-    // Deprecated RN 0.47
+    // @Override - Temporary fix
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
@@ -37,4 +37,3 @@ public class TwitterSigninPackage implements ReactPackage {
         return Arrays.<ViewManager>asList();
     }
 }
-
